@@ -1,0 +1,11 @@
+<div class="row" *ngFor="let beer of beers" style="margin-bottom: 1rem;">
+  <div class="col-12">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{beer.name}}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{beer.tagline}}}</h6>
+        <p class="card-text">{{beer.description}}</p>
+      </div>
+    </div>
+  </div>
+</div>
